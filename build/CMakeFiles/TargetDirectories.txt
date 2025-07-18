@@ -1,0 +1,3 @@
+/home/mi/CMake_Final/CMake作业/CMake 1/build/CMakeFiles/main.dir
+/home/mi/CMake_Final/CMake作业/CMake 1/build/CMakeFiles/edit_cache.dir
+/home/mi/CMake_Final/CMake作业/CMake 1/build/CMakeFiles/rebuild_cache.dir
