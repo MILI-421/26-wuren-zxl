@@ -1,0 +1,2 @@
+fsd_common_msgs:turtle_control_pkg
+-DCATKIN_DEVEL_PREFIX=/home/mi/roshomework/devel -DCMAKE_INSTALL_PREFIX=/home/mi/roshomework/install -G Unix Makefiles

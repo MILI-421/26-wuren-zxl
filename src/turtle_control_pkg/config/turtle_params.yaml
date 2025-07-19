@@ -1,0 +1,3 @@
+turtle_angular_speed: 0.5  # 乌龟角速度
+trajectory_radius: 2.0     # 轨迹半径（示例参数）
+

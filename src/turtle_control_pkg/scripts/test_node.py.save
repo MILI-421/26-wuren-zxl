@@ -1,0 +1,14 @@
+# 创建 ~/test_node.py
+#! /usr/bin/env python3
+import rospy
+from std_msgs.msg import String
+
+rospy.init_node('test_node')
+pub = rospy.Publisher('test_topic', String, queue_size=10)
+rate = rospy.Rate(1)
+
+while not rospy.is_shutdown():
+    pub.publish("Hello ROS!")
+    rate.sleep()
+
+
