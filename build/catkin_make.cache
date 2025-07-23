@@ -1,0 +1,2 @@
+control_pkg:lir_pkg:tur_msgs
+-DCATKIN_DEVEL_PREFIX=/home/mi/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mi/catkin_ws/install -G Unix Makefiles

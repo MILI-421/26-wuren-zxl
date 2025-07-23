@@ -1,0 +1,15 @@
+<launch>
+    <!-- 启动小海龟仿真节点 -->
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim" />
+    
+    <!-- 加载 YAML 参数到参数服务器 -->
+    <rosparam command="load" file="$(find lir_pkg)/config/turtle_params.yaml" />
+
+    <!-- 启动 Python 消息发布节点 -->
+    <node pkg="lir_pkg" type="lir_node.py" name="lir_node" output="screen" />
+
+
+    <!-- 启动 C++ 控制节点 -->
+    <node pkg="control_pkg" type="turtle_control_node" name="turtle_control_node" output="screen" />
+</launch>
+

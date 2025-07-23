@@ -1,0 +1,4 @@
+turtlr_speed:
+    turtle_angular: 0.5    # 乌龟角速度
+    turtle_radius: 2.0     # 轨迹半径
+

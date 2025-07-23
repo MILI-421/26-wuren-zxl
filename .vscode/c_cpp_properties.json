@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/mi/catkin_ws/devel/include/**",
+        "/home/mi/roshomework/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/mi/catkin_ws/src/control_pkg/include/**",
+        "/home/mi/catkin_ws/src/tur_msgs/include/**",
+        "/home/mi/roshomework/src/turtle_control_pkg/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,8 @@
+prefix=/home/mi/catkin_ws/devel
+
+Name: tur_msgs
+Description: Description of tur_msgs
+Version: 0.0.0
+Cflags: -I/home/mi/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_generation message_runtime roscpp rospy std_msgs
