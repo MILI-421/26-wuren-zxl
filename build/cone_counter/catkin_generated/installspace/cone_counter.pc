@@ -1,0 +1,8 @@
+prefix=/home/mi/ros_cone/install
+
+Name: cone_counter
+Description: Description of cone_counter
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lcone_counter
+Requires: geometry_msgs roscpp sensor_msgs std_msgs fsd_common_msgs

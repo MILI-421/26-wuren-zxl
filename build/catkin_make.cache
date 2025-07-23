@@ -1,0 +1,2 @@
+cone_counter:cone_viz:fsd_common_msgs
+-DCATKIN_DEVEL_PREFIX=/home/mi/ros_cone/devel -DCMAKE_INSTALL_PREFIX=/home/mi/ros_cone/install -G Unix Makefiles
