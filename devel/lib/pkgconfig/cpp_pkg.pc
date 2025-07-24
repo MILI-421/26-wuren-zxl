@@ -1,0 +1,8 @@
+prefix=/home/mi/cpp_ws/devel
+
+Name: cpp_pkg
+Description: Description of cpp_pkg
+Version: 0.0.0
+Cflags: -I/usr/include/eigen3
+Libs: -L${prefix}/lib 
+Requires: cv_bridge fsd_common_msgs roscpp sensor_msgs eigen_conversions
